@@ -42,7 +42,7 @@ public class Servicios extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel1.setText("Redstone Tecnologie");
+        jLabel1.setText("Redstone Tecnologies");
 
         jLabel2.setText("Tipo de caso de prueba que se desea realizar. De las cuales te mostramos algunos de nuestras. opciones .");
 
@@ -59,7 +59,7 @@ public class Servicios extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("Casos de purba de unitarios");
+        jLabel3.setText("Casos de prueba de unitarios");
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -67,7 +67,7 @@ public class Servicios extends javax.swing.JFrame {
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("Casos de purba de Aceptacion");
+        jLabel5.setText("Casos de prueba de Aceptacion");
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -130,6 +130,10 @@ public class Servicios extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        sistema ventanaSistema = new sistema();
+        ventanaSistema.setVisible(true);
+        dispose();
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
